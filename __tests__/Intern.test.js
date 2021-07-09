@@ -6,7 +6,7 @@ test("creates an intern object", () => {
 	expect(intern.name).toBe("Sam");
 	expect(intern.id).toBe(2);
 	expect(intern.email).toBe("sam@wilson.com");
-	expect(intern.college).toBe("York");
+	expect(intern.school).toBe("York");
 });
 
 
@@ -28,10 +28,10 @@ test("tests the Email method", () => {
 	expect(intern.getEmail()).toBe("sam@wilson.com");
 });
 
-test("tests the College method", () => {
+test("tests the School method", () => {
 	const intern = new Intern("Sam", 2, "sam@wilson.com", "York");
 
-	expect(intern.getCollege()).toBe("York");
+	expect(intern.getSchool()).toBe("York");
 });
 
 test("tests the Role method", () => {

@@ -110,7 +110,7 @@ const internQuestions = [
 	{
 		type: "input",
 		name: "internName",
-		message: "Please enter the intern's name.",
+		message: "Please enter the intern's name:",
 		validate: (nameInput) => {
 			if (nameInput) return true;
 			else {
@@ -147,11 +147,11 @@ const internQuestions = [
 	},
 	{
 		type: "input",
-		name: "internCollege",
-		message: "Please enter the college the intern attends:",
-		validate: (collegeInput) => {
-			if (!collegeInput) {
-				console.log("You must enter a college!");
+		name: "internSchool",
+		message: "Please enter the school:",
+		validate: (schoolInput) => {
+			if (!schoolInput) {
+				console.log("You must enter a school!");
 				return false;
 			} else return true;
 		},

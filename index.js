@@ -28,7 +28,7 @@ const promptAddEmployeeQuestion = () => {
 			{
 				type: "list",
 				name: "addEmployee",
-				message: "Would you like to add an Engineer or an Intern?",
+				message: "Would you like to add an Engineer or an Intern ?",
 				choices: [
 					"Add an Engineer",
 					"Add an Intern",
@@ -122,14 +122,14 @@ const promptIntern = () => {
 		inquirer
 			.prompt(internQuestions)
 			.then((internData) => {
-				const { internName, internID, internEmail, internCollege } = internData;
+				const { internName, internID, internEmail, internSchool } = internData;
 
 				
 				const intern = new Intern(
 					internName,
 					internID,
 					internEmail,
-					internCollege
+					internSchool
 				);
 
 				

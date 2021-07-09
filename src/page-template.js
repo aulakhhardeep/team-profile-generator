@@ -63,7 +63,7 @@ const generateIntern = (personnel) => {
                 <li class="list-group-item"><b>ID: </b>${intern.getId()}</li>
                 <li class="list-group-item"><b>Email: </b><a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
                 <li class="list-group-item">
-                    <b>School: </b>${intern.getCollege()}
+                    <b>School: </b>${intern.getSchool()}
                 </li>
             </ul>
         </article>`;
