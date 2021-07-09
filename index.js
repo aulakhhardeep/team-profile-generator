@@ -153,13 +153,9 @@ promptManager()
 	
 	.then((writeFileResponse) => {
 		console.log(writeFileResponse);
-		return copyFile();
+		
 	})
-	
-	.then((copyFileReponse) => {
-		console.log(copyFileReponse);
-	})
-	
+		
 	.catch((err) => {
 		console.log(err);
 	});
