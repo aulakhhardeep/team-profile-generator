@@ -1,0 +1,9 @@
+header {
+	align-items: center;
+	display: flex;
+	height: 100px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	justify-content: center;
+	width: 100%;
+}
+
